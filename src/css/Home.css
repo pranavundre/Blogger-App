@@ -1,0 +1,23 @@
+/* Home.css */
+
+.home {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.add-signin-link {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.add-signin-link:hover {
+  background-color: #0056b3;
+}

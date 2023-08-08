@@ -1,0 +1,151 @@
+/* BlogList.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-blog-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.add-blog-link:hover {
+  background-color: #0056b3;
+}
+
+.search-field {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-btn {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.blog-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.blog-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.blog-body {
+  color: #555;
+  line-height: 1.6;
+}
+
+.blog-img {
+  width: 100%;
+  max-height: 200px; /* Set the desired max height */
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.blog-links {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.read-link,
+.edit-link{
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.del-btn{
+  padding: 8px 16px;
+  background-color: maroon;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.read-link:hover,
+.edit-link:hover {
+  background-color: #0056b3;
+}
+
+.del-btn:hover {
+  background-color: #b30000;
+}
+
+.comments {
+  margin-top: 20px;
+}
+
+.comment {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.comment img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.comment-user {
+  font-weight: bold;
+  margin: 0;
+}
+
+.comment-text {
+  margin: 0;
+  color: #555;
+}
